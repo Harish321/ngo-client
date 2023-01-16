@@ -20,7 +20,7 @@ const NgoForm = () =>{
   }
   var submitForm = () => {
     setButtonText("Processing Please Wait...")
-    axios.post("http://localhost:5000/donate",{
+    axios.post("http://15.207.7.212:5000/donate",{
       amount:amount,
       name:name,
       period:period
