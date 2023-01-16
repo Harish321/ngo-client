@@ -1,15 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
-import Nav from "./components/Navbar";
 
 import { BrowserRouter } from 'react-router-dom'
 import Navbar from './components/Navbar'
+import NgoForm from './components/NgoForm';
+import FootBar from './components/FootBar';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <>
       <Navbar />
-    </BrowserRouter>
+      <NgoForm />
+      <FootBar />
+    </>
+
   )
 }
 
