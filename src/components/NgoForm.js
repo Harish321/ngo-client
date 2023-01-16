@@ -48,11 +48,11 @@ const NgoForm = () =>{
           <h2>Our Initiatives</h2>
           <div className="ngo-images">
           <div>
-            <h5>Samuhik Vivah</h5>
+            <h5>Kanya Pujan</h5>
             <img src={img2}></img>
           </div>
           <div>
-            <h5>Samuhik Vivah</h5>
+            <h5>Mahila Sashaktikaran</h5>
             <img src={img4}></img>
           </div>
           <div>
@@ -60,7 +60,7 @@ const NgoForm = () =>{
             <img src={img}></img>
           </div>
           <div>
-            <h5>Samuhik Vivah</h5>
+            <h5>Yogdan kendra</h5>
             <img src={img3}></img>
           </div>
         </div>
