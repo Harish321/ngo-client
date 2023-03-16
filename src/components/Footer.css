@@ -5,6 +5,7 @@
   flex-wrap: wrap;
   justify-content: center;
   padding: 50px;
+  padding-bottom: 10px;
 }
 
 .footer-column {

@@ -12,6 +12,7 @@ import HorizontalScroll from './components/HorizontalScroll';
 import SmallBanner from './components/SmallBanner';
 import FooterCopyright from './components/FooterCopyright';
 import TrustActivities from './components/TrustActivities';
+import Donation from './components/Donation';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       {/* <Banner /> */}
       <SmallBanner email="d.harishdhulipalla@gmail.com" phone="7893682470"/>
       <Navbar2 />
+      <Donation />
       <TrustActivities />
       {/* <HorizontalScroll></HorizontalScroll> */}
       {/* <NgoForm /> */}

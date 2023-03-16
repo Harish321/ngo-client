@@ -1,0 +1,34 @@
+.donation-container {
+  background-image: url("./background_test.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.donation-form-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 50px auto;
+  max-width: 500px;
+  padding: 20px;
+  width: 90%;
+}
+
+.form-row {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #f15702;
+  border-color: #f15702;
+}
+
+.btn-primary:hover {
+  background-color: #d14100;
+  border-color: #d14100;
+}

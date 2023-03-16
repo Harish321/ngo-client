@@ -1,5 +1,6 @@
 import React from 'react';
 import './TrustActivities.css';
+import img1 from './activity1.jpg'
 
 const TrustActivities = () => {
   return (
@@ -7,8 +8,8 @@ const TrustActivities = () => {
       <h2 className="trust-activities-title">Trust Activities</h2>
       <div className="trust-activity-cards-container">
         <div className="trust-activity-card">
-            <img src="https://picsum.photos/id/237/400/300" alt="Trust Activity 1" />
-            <p className="trust-activity-card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget augue vitae elit lacinia vehicula ut vel mi. Proin euismod, magna eget efficitur tempor, orci odio vestibulum purus, non tempor est magna eu tortor.</p>
+            <img src={img1} alt="Trust Activity 1" />
+            <p className="trust-activity-card-description">चौधरीवास खंड हिसार में भारत माता पूजन का कार्यक्रम आयोजित किया गया जिसमें विद्यार्थी एवं अभिभावक गण शामिल हुए। चौधरीवास खंड हिसार में भारत माता पूजन का कार्यक्रम आयोजित किया गया जिसमें विद्यार्थी एवं अभिभावक गण शामिल हुए।</p>
         </div>
         <div className="trust-activity-card">
             <img src="https://picsum.photos/id/238/400/300" alt="Trust Activity 2" />

@@ -4,7 +4,7 @@ import React from 'react';
 function Navbar2() {
   return (
     <nav className="navbar-container">
-      <h1 className="navbar-title">Rashtrotthan Nyas</h1>
+      <h1 className="navbar-title">राष्ट्रोत्थान न्यास</h1>
       <ul className="navbar-items">
         <li className="navbar-item">Home</li>
         <li className="navbar-item">About Us</li>

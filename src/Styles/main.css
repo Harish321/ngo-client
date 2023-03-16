@@ -175,18 +175,23 @@ nav {
 	padding-left: 3px;
 	font-size: 20px;
 }
-.ngo-form-amount{
-		border: 1px solid transparent;
-    border-radius: 2%;
-    box-shadow: 0px 0px 3px 0px grey;
-    display: grid;
-    /* justify-content: center; */
-    grid-template-rows: 40px 65px 65px 100px 30px;
-    padding: 20px;
-		margin-top: 20%;
-		margin-bottom: 30%;
-		background-color: white;
-		grid-gap:1rem;
+.ngo-form-amount {
+	position: absolute;
+	border: 1px solid transparent;
+	border-radius: 2%;
+	box-shadow: 0px 0px 3px 0px grey;
+	display: grid;
+	/* justify-content: center; */
+	grid-template-rows: 50px 100px 100px 150px 35px;
+	padding: 35px;
+	margin-top: 55px;
+	margin-bottom: 30%;
+	background-color: #ffffff6e;
+	grid-gap: 1rem;
+	width: 454px;
+	margin-left: 105px;
+	/* padding-top: 34px; */
+	/* margin-top: 0px; */
 }
 .amount-donate{
 	align-self: center;
@@ -261,6 +266,7 @@ nav {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 1rem;
   font-family: 'Open Sans', sans-serif;
+	border-bottom: 3px solid #00000024;
 }
 
 .navbar-title {
@@ -307,7 +313,7 @@ nav {
   width: 100%;
 }
 
-.footer-column {
+.footer-columns {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -427,16 +433,17 @@ nav {
 
 
 .small-banner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #f15702;
-  color: white;
-  font-family: sans-serif;
-  font-size: 14px;
-  padding: 8px;
-  width: 100%;
-  z-index: 999;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #f15702;
+	color: white;
+	font-family: sans-serif;
+	font-size: 12px;
+	padding: 8px;
+	width: 100%;
+	z-index: 999;
+	height: 25px;
 }
 
 .small-banner-icon {
