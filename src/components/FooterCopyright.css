@@ -1,0 +1,16 @@
+.footer-copyright {
+  background-color: #ff8c00;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px
+}
+
+.footer-copyright a {
+  color: white;
+}
+
+.footer-copyright a:hover {
+  text-decoration: underline;
+}

@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
 
 * {
 	padding: 0;
@@ -15,7 +17,7 @@
 }
 
 body{
-	background-color: #467804db;
+	background-color: #ededd5;
 }
 
 .top-banner {
@@ -422,3 +424,34 @@ nav {
   /* Styling for the right arrow icon */
   margin-left: 1rem;
 }
+
+
+.small-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f15702;
+  color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+  padding: 8px;
+  width: 100%;
+  z-index: 999;
+}
+
+.small-banner-icon {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.small-banner-icon i {
+  font-size: 18px;
+  margin-right: 4px;
+}
+
+.small-banner-text {
+  display: inline-block;
+  margin-right: 16px;
+}
+

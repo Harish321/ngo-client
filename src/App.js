@@ -9,15 +9,21 @@ import Banner from './components/Banner';
 import Navbar2 from './components/NavBar2';
 import Footer from './components/Footer';
 import HorizontalScroll from './components/HorizontalScroll';
+import SmallBanner from './components/SmallBanner';
+import FooterCopyright from './components/FooterCopyright';
+import TrustActivities from './components/TrustActivities';
 
 const App = () => {
   return (
     <>
-      <Banner />
+      {/* <Banner /> */}
+      <SmallBanner email="d.harishdhulipalla@gmail.com" phone="7893682470"/>
       <Navbar2 />
-      <HorizontalScroll></HorizontalScroll>
+      <TrustActivities />
+      {/* <HorizontalScroll></HorizontalScroll> */}
       {/* <NgoForm /> */}
-      {/* <Footer /> */}
+      <Footer />
+      {/* <FooterCopyright/> */}
     </>
 
   )
