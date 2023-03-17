@@ -18,7 +18,7 @@ const App = () => {
   return (
     <>
       {/* <Banner /> */}
-      <SmallBanner email="d.harishdhulipalla@gmail.com" phone="7893682470"/>
+      <SmallBanner email="rashtrotthanyas@gmail.com" phone="+91 9818501613"/>
       <Navbar2 />
       <Donation />
       <TrustActivities />
