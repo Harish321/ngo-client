@@ -1,6 +1,8 @@
 import React from 'react';
 import './TrustActivities.css';
 import img1 from './activity1.jpg'
+import img2 from './activity2.jpeg'
+
 
 const TrustActivities = () => {
   return (
@@ -12,8 +14,8 @@ const TrustActivities = () => {
             <p className="trust-activity-card-description">चौधरीवास खंड हिसार में भारत माता पूजन का कार्यक्रम आयोजित किया गया जिसमें विद्यार्थी एवं अभिभावक गण शामिल हुए। चौधरीवास खंड हिसार में भारत माता पूजन का कार्यक्रम आयोजित किया गया जिसमें विद्यार्थी एवं अभिभावक गण शामिल हुए।</p>
         </div>
         <div className="trust-activity-card">
-            <img src="https://picsum.photos/id/238/400/300" alt="Trust Activity 2" />
-            <p className="trust-activity-card-description">Nullam in nunc vel mauris pharetra egestas eu ut augue. Suspendisse ultricies metus eu velit congue molestie. Proin porta neque ac efficitur eleifend. Nam luctus vestibulum magna, quis gravida magna. </p>
+            <img src={img2} alt="Trust Activity 2" />
+            <p className="trust-activity-card-description">फरीदाबाद में हुए कार्यकर्ता अभ्यास वर्ग के दौरान कार्यकर्ताओं को सम्बोधित करते हुए श्रीमान योगेन्द्र जी एवं साध्वी शकुन्तला जी </p>
         </div>
         <div className="trust-activity-card">
             <img src="https://picsum.photos/id/239/400/300" alt="Trust Activity 3" />
