@@ -1,7 +1,7 @@
 
 function SmallBanner(props) {
   return (
-    <div className="small-banner">
+    <div className="small-banner" id="home">
       <span className="small-banner-icon">
         <i className="fas fa-envelope"></i>
       </span>

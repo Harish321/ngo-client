@@ -9,7 +9,7 @@ import img7 from './activity7.jpeg'
 
 const TrustActivities = () => {
   return (
-    <div className="trust-activities-container">
+    <div className="trust-activities-container" id="trust">
       <h2 className="trust-activities-title">Trust Activities</h2>
       <div className="trust-activity-cards-container">
         <div className="trust-activity-card">

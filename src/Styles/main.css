@@ -288,6 +288,7 @@ nav {
 
 .navbar-item:hover {
   color: #f15702;
+	cursor: pointer;
 }
 
 .navbar-donate-button {
@@ -462,3 +463,7 @@ nav {
   margin-right: 16px;
 }
 
+.about-us-description{
+ padding-left: 50px;
+ padding-right: 50px;
+}
